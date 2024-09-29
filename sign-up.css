@@ -1,0 +1,396 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Inter", serif;
+}
+
+html, body{
+    height: 100%;
+    width: 100%;
+}
+
+.main{
+    height: 100%;
+    width: 100%;
+}
+
+
+.navbar{
+    height: 70px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    border-bottom: 1.5px solid #66666630;
+    padding: 0 15% 0 15%;
+    position: fixed;
+    background-color: white;
+   
+
+}
+
+.nav-img{
+    height: 17px;
+    width: 140px;
+    background-image: url("logo.svg");
+    background-size: cover;
+    cursor: pointer;
+
+}
+ 
+.nav-ele{
+    display: flex;
+    justify-content: flex-end;
+    align-items:center;
+    width: 90%;
+    height: 100%;
+    margin-left: 20px;
+
+}
+.nav-ele p{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 90px;
+    height: 70px;
+    color: #666666;
+    font-size: 14px;
+}
+
+.nav-ele p:hover{
+   color: #387ed1;
+   cursor: pointer;
+}
+
+.nav-icon{
+    display: flex;
+    align-items: center;
+    width: 90px;
+    height: 70px;
+    font-size: 20px;
+    color: rgba(0, 0, 0, 0.688);
+    padding-left: 23px;
+    cursor: pointer;
+}
+
+
+.hero-text {
+    height: 40vh;
+    width: 100%;
+    padding: 0% 10% 0% 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  
+ }
+
+ 
+ .hero-text h1{
+    font-size: 46px;
+    font-weight: 500;
+    word-spacing: 3px;
+    margin-bottom: 16px;
+    margin-top: 150px;
+    color: #424242;
+   
+ }
+
+ .hero-text h4{
+    font-size: 19px;
+    font-weight: 400;
+    margin-bottom: 40px;
+    color: #424242c8;
+ }
+
+
+ 
+ .page-4{
+    height: 50vh;
+    width: 100%;
+    padding: 0px 15% 0px 14%;
+    display: flex;
+    margin-top: 45px;
+  }
+
+
+   
+ .page-4-img{
+    height: 100%;
+    width: 70%;
+ 
+  }
+ 
+ .page-4-img img{
+    height: 100%;
+    width: 95%;
+   background-size: cover;
+   
+ }
+
+ .page-4-text{
+    height: 100%;
+    width: 65%;
+
+ }
+
+ .page-4-text h2 {
+    font-weight: 500;
+    color: #424242;
+    padding-top: 10%;
+    font-size: 32px;
+    margin-bottom: 10px;
+ }
+
+ .page-4-text span{
+    font-size: 16px;
+    color: #9b9b9b;
+   
+ }
+
+ .user-mobile{
+    height: 45px;
+    width: 350px;
+    margin-top: 15px;
+    display: flex;
+    border: 1px solid #9b9b9b;
+    border-radius: 3px;
+ 
+ } 
+
+
+
+ .user-mobile span{
+    height: 100%;
+    width: 16%;
+    color: #424242;
+    font-size: 20px;
+    padding: 10px;
+    border-right: 1px solid #9b9b9b;
+
+  
+    
+ }
+ 
+ .user-mobile input{
+    height: 100%;
+    width: 84%;
+    color: #9b9b9b;
+    font-size: 19px;
+    padding: 0px 15px 0px 15px;
+    border: none;
+    
+ }
+
+
+ input:focus {
+    outline: none;
+}
+
+.user-mobile:focus-within{
+   border: 1.8px solid rgba(118, 118, 118, 0.915);
+}
+
+.page-4-text p{
+    font-size: 12px;
+    color: #9b9b9b;
+    margin: 5px 0px 15px 0px;    
+}
+
+button{
+    height: 45px;
+    width: 145px;
+    background-color: #387ed1;
+    border: none;
+    font-size: 20px;
+    color: white;
+    cursor: pointer;
+    border-radius: 3px;
+}
+
+button:hover{
+    background-color: black;
+}
+
+
+.page-4-text h5{
+    font-size: 12px;
+    font-weight: 500;
+    color: #387ed1;
+    margin: 12px 0px 15px 0px;
+    cursor: pointer;
+}
+
+.page-4-text h5:hover{
+    color: #424242;
+}
+
+
+.text-2{
+    height: 24vh;
+    width: 100%;
+    padding: 0% 18% 0% 18%;
+    margin-top: 50px;
+    font-size: 12px;
+    color: #666666;
+    text-align: center;
+}
+
+.text-2 p{
+    margin-bottom: 8px;
+}
+
+.text-2 h4{
+    font-weight: 400;
+    text-align: center;
+    margin-bottom: 8px;
+}
+
+.text-2 span{
+    color: #387ed1;
+    cursor: pointer;
+}
+
+
+.page-6{
+    height: 58vh;
+    width: 100%;
+    background-color: #fbfbfb;
+    border-top: 1px solid rgba(0, 0, 0, 0.118);
+    padding: 3% 13% 3% 13%;
+    display: flex;
+    
+ }
+ 
+ 
+ .ele-1{
+    height: 100%;
+    width: 25%;
+    
+ 
+ }
+ 
+ .ele-1 h4{
+    font-size: 18px;
+    color: #424242;
+    margin-bottom: 20px;
+    font-weight: 500;
+ }
+ 
+ .ele-1 p{
+    font-size: 16px;
+    color: #666666;
+    font-weight: 500;
+    line-height: 33px;
+    cursor: pointer;
+ }
+ 
+ .ele-1 p:hover{
+    color: #387ed1;
+ }
+ 
+ .ele-2{
+    height: 100%;
+    width: 25%;
+   padding: 5px 20px 10px 20px;
+ }
+ 
+ .ele-2 img{
+    height: 20px;
+    width: 150px;
+    background-size: cover;
+    margin-bottom: 15px;
+ 
+ }
+ 
+ .ele-2 p{
+    font-size: 12px;
+    color: #424242;
+    line-height: 23px;
+ }
+ 
+ .ele-logo1{
+    height: 30px;
+    width: 100%;
+    margin-top: 15px;
+ }
+ 
+ .ele-logo2{
+    height: 30px;
+    width: 100%;
+    margin-top: 15px;
+ }
+ 
+ 
+ 
+ .ele-logo1 i{
+    margin-top: 20px;
+    font-size: 19px;
+    color: #666666;
+    margin-right: 16px;
+    cursor: pointer;
+  
+ }
+ .ele-logo2 i{
+    margin-top: 20px;
+    font-size: 19px;
+    color: #666666;
+    margin-right: 16px;
+    cursor: pointer;
+ }
+ 
+ .ele-logo1 i:hover{
+    color: #387ed1;
+ }
+ 
+ .ele-logo2 i:hover{
+    color: #387ed1;
+ }
+ 
+ hr{
+    border-top: 0.8px solid #eeeeeebc;
+    position: relative;
+    top: 22px;
+    left: 0;
+ }
+
+.page-7{
+    height: 55vh;
+    width: 100%;
+    background-color: #fbfbfb;
+    padding: 0% 14% 0% 14%;
+    font-size: 10px;
+    color: #9b9b9b;
+    line-height: 18px;
+    
+ }
+ 
+ .page-7 p{
+    margin-bottom: 15px;
+ }
+ 
+ .page-7 span{
+    color: #387ed1;
+    font-weight: 500;
+    cursor: pointer;
+ }
+ .page-7 span:hover{
+    color: #424242;
+ }
+ 
+ .page-ul{
+    height: 45px;
+    width: 100%;
+    padding-left: 70px;
+    padding-right: 70px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    font-size: 12px;
+    font-weight: 500;
+    cursor: pointer;
+ }
+ 
+ .page-ul p:hover{
+    color: #387ed1;
+ }
