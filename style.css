@@ -44,6 +44,7 @@ html, body{
     width: 90%;
     height: 100%;
     margin-left: 20px;
+   
 
 }
 .nav-ele p{
@@ -54,6 +55,7 @@ html, body{
     height: 70px;
     color: #666666;
     font-size: 14px;
+    text-decoration: none;
 }
 
 .nav-ele p:hover{

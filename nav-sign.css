@@ -8,11 +8,13 @@
 html, body{
     height: 100%;
     width: 100%;
+   
 }
 
 .main{
     height: 100%;
     width: 100%;
+    
 }
 
 
@@ -23,7 +25,7 @@ html, body{
     align-items: center;
     border-bottom: 1.5px solid #66666630;
     padding: 0 15% 0 15%;
-    position: fixed;
+    /* position: fixed; */
     background-color: white;
    
 
@@ -37,100 +39,36 @@ html, body{
     cursor: pointer;
 
 }
- 
-.nav-ele{
-    display: flex;
-    justify-content: flex-end;
-    align-items:center;
-    width: 90%;
-    height: 100%;
-    margin-left: 20px;
 
-}
-.nav-ele p{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 90px;
-    height: 70px;
-    color: #666666;
-    font-size: 14px;
-}
-
-.nav-ele p:hover{
-   color: #387ed1;
-   cursor: pointer;
-}
-
-.nav-icon{
-    display: flex;
-    align-items: center;
-    width: 90px;
-    height: 70px;
-    font-size: 20px;
-    color: rgba(0, 0, 0, 0.688);
-    padding-left: 23px;
-    cursor: pointer;
-}
-
-
-.hero-text {
-    height: 40vh;
-    width: 100%;
-    padding: 0% 10% 0% 10%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-  
- }
-
- 
- .hero-text h1{
-    font-size: 46px;
-    font-weight: 500;
-    word-spacing: 3px;
-    margin-bottom: 16px;
-    margin-top: 150px;
-    color: #424242;
-   
- }
-
- .hero-text h4{
-    font-size: 19px;
-    font-weight: 400;
-    margin-bottom: 40px;
-    color: #424242c8;
- }
 
 
  
- .page-4{
+.page-4{
     height: 50vh;
     width: 100%;
-    padding: 0px 15% 0px 14%;
+    padding: 0px 13% 0px 22%;
     display: flex;
-    margin-top: 45px;
-  }
+    margin-top: 140px;
+}
 
 
    
  .page-4-img{
     height: 100%;
-    width: 70%;
+    width: 80%;
  
   }
  
  .page-4-img img{
     height: 100%;
-    width: 95%;
+    width: 80%;
    background-size: cover;
    
  }
 
  .page-4-text{
     height: 100%;
-    width: 65%;
+    width: 35%;
 
  }
 
@@ -138,7 +76,7 @@ html, body{
     font-weight: 500;
     color: #424242;
     padding-top: 10%;
-    font-size: 32px;
+    font-size: 30px;
     margin-bottom: 10px;
  }
 
@@ -150,37 +88,59 @@ html, body{
 
  .user-mobile{
     height: 45px;
-    width: 350px;
-    margin-top: 15px;
+    width: 270px;
+    margin-top: 25px;
+    margin-bottom: 25px;
     display: flex;
     border: 1px solid #9b9b9b;
     border-radius: 3px;
+    position: relative;
  
  } 
 
 
 
- .user-mobile span{
-    height: 100%;
-    width: 16%;
-    color: #424242;
-    font-size: 20px;
-    padding: 10px;
-    border-right: 1px solid #9b9b9b;
 
-  
-    
- }
- 
  .user-mobile input{
     height: 100%;
-    width: 84%;
-    font-size: 16px;
+    width: 80%;
+    /* color: #9b9b9b; */
     font-size: 19px;
-    padding: 0px 15px 0px 15px;
+    padding: 0px 15px 0px 10px;
     border: none;
+    position: relative;
+    font-size: 16px;
     
  }
+
+
+ 
+ .user-mobile label{
+   height: 14px ;
+   width: 90px;
+   background-color: white;
+   color: #9b9b9b;
+   font-size: 11px;
+   margin: 0px 0px 4px 10px;
+   padding: 0px 5px;
+   position: absolute;
+   z-index: 5;
+   top: -7px;
+ }
+
+ .user-mobile span{
+   height: 100%;
+   width: 18%;
+   background-color: #fafafb;
+   padding: 13px 10px ;
+   color: black;
+   font-size: 14px;
+   border-radius: 3px 0px 0px 3px;
+  
+ }
+
+
+
 
 
  input:focus {
@@ -198,18 +158,18 @@ html, body{
 }
 
 button{
-    height: 45px;
-    width: 145px;
+    height: 40px;
+    width: 135px;
     background-color: #387ed1;
     border: none;
-    font-size: 20px;
+    font-size: 14px;
     color: white;
     cursor: pointer;
     border-radius: 3px;
 }
 
 button:hover{
-    background-color: black;
+    opacity: 0.7;
 }
 
 
@@ -249,6 +209,10 @@ button:hover{
 .text-2 span{
     color: #387ed1;
     cursor: pointer;
+}
+
+.text-2 span:hover{
+   color: black;
 }
 
 
